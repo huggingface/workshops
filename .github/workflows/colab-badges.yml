@@ -18,5 +18,5 @@ jobs:
           update: true
           target_branch: main
 
-      - name: Push changes
-        uses: action/commit@push
+      - name: push
+        uses: actions-x/commit@v2
