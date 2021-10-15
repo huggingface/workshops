@@ -17,3 +17,6 @@ jobs:
           check: 'all'
           update: true
           target_branch: main
+
+      - name: Push changes
+        uses: action/commit@push
