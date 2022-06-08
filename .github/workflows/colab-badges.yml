@@ -21,4 +21,4 @@ jobs:
           target_branch: main
 
       - name: push
-        uses: action/commit@push
+        uses: github-actions-x/commit@v2.9
