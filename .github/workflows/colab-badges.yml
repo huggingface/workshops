@@ -6,6 +6,8 @@ jobs:
     name: Example Job
     runs-on: ubuntu-latest
     steps:
+      - name: Work around permission issue
+        run: git config --global --add safe.directory /__w/quick-lint-js/quick-lint-js
       - name: Checkout first
         id: checkout
         uses: actions/checkout@v2
