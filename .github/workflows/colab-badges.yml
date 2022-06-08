@@ -14,11 +14,12 @@ jobs:
 
       - name: Add/update badges
         id: badges
-        uses: trsvchn/colab-badge-action@v3
+        uses: trsvchn/colab-badge-action@v4
         with:
           check: 'all'
           update: true
           target_branch: main
+          target_repository: huggingface/workshops
 
       - name: push
         uses: github-actions-x/commit@v2.9
