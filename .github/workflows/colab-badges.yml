@@ -6,13 +6,13 @@ jobs:
     name: Add Colab links
     runs-on: ubuntu-latest
     steps:
-      - name: Work around permission issue
-        run: git config --global --add safe.directory /__w/workshops/workshops
+      - name: Trust My Directory
+        run: export GIT_CEILING_DIRECTORIES=/__w # only work before git v2.35.2
       - name: Checkout first
         id: checkout
         uses: actions/checkout@v2
 
-      - name: Add/Update badges
+      - name: Add/update badges
         id: badges
         uses: trsvchn/colab-badge-action@v3
         with:
@@ -21,4 +21,4 @@ jobs:
           target_branch: main
 
       - name: push
-        uses: actions-x/commit@v2
+        uses: github-actions-x/commit@v2.9
