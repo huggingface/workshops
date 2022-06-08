@@ -3,11 +3,11 @@ on: [push]
 
 jobs:
   build:
-    name: Example Job
+    name: Add Colab links
     runs-on: ubuntu-latest
     steps:
       - name: Work around permission issue
-        run: git config --global --add safe.directory /__w/quick-lint-js/quick-lint-js
+        run: git config --global --add safe.directory /__w/workshops/workshops
       - name: Checkout first
         id: checkout
         uses: actions/checkout@v2
