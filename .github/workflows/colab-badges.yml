@@ -12,7 +12,7 @@ jobs:
         id: checkout
         uses: actions/checkout@v2
 
-      - name: Add/Update badges
+      - name: Add/update badges
         id: badges
         uses: trsvchn/colab-badge-action@v3
         with:
