@@ -4,6 +4,8 @@
 
 ## Getting started
 
+The address for this repo is **https://github.com/huggingface/workshops**
+
 If you want to follow along, make sure you have:
 
 * Signed up for a Hugging Face account: https://huggingface.co/join
