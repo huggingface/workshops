@@ -1,6 +1,6 @@
 # Luzern University of Applied Sciences and Arts
 
-> Here you can find all the materials for the guest lecture at the [Luzern University of Applied Sciences and Arts](https://www.hslu.ch/en/)!
+> Here you can find all the materials for the guest lectures at the [Luzern University of Applied Sciences and Arts](https://www.hslu.ch/en/)!
 
 ## Getting started
 
