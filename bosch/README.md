@@ -4,7 +4,9 @@
 
 ## Slides
 
-You can find slides for the workshops at the links below.
+You can find slides for the workshops at the links below:
+
+* [Accelerating Transformers with 🤗 Optimum](https://docs.google.com/presentation/d/1UOcmrbsLVUTKnAUsYEcCIXFmZLPv17-HINQycRa-kqg/edit?usp=sharing)
 
 ## Getting started
 
